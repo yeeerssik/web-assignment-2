@@ -1,29 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4716aa9-ee40-4194-a95c-96ba897fa372" name="Changes" comment="" />
+    <list default="true" id="d4716aa9-ee40-4194-a95c-96ba897fa372" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/crud_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud_app/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud_app/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud_app/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score/templates/save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/score/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/save.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2nNmcCjjpu3Jn4rhMyMOftWIz8t" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.crud_app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="crud_app" type="Python.DjangoServer" factoryName="Django server">
       <module name="crud_app" />
@@ -32,6 +77,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="crud_app.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -66,7 +112,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728821984495</updated>
-      <workItem from="1728821988892" duration="5000" />
+      <workItem from="1728821988892" duration="1646000" />
+      <workItem from="1728824002240" duration="2952000" />
+      <workItem from="1728831675975" duration="1988000" />
     </task>
     <servers />
   </component>

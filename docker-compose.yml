@@ -1,0 +1,33 @@
+# docker-compose.yml
+
+version: '3'
+
+services:
+  db:
+    image: postgres:13  # Use PostgreSQL as the database
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/  # Persist data even if the container is stopped
+    environment:
+      POSTGRES_DB: crud_db   # Name of your database
+      POSTGRES_USER: yers   # Database user
+      POSTGRES_PASSWORD: yers10  # Database password
+
+  web:
+    build: .  # Builds the web service using the Dockerfile in the current directory
+    command: python manage.py runserver 0.0.0.0:8000  # Command to run the Django app
+    volumes:
+      - .:/app  # Mounts the current project folder into the container
+    ports:
+      - "8000:8000"  # Exposes port 8000 on the host machine to port 8000 in the container
+    depends_on:
+      - db  # Ensure the db service is up before starting the web service
+    environment:
+      DEBUG: '1'  # Set DEBUG mode for development
+      DJANGO_DB_NAME: crud_db  # Database name
+      DJANGO_DB_USER: yers  # Database user
+      DJANGO_DB_PASSWORD: yers10  # Database password
+      DJANGO_DB_HOST: db  # Hostname of the database (same as service name)
+      DJANGO_DB_PORT: 5432  # Default PostgreSQL port
+
+volumes:
+  postgres_data:
